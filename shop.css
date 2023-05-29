@@ -1,0 +1,102 @@
+header {
+    background-image: url("./images/header2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    height: 300;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    position: absolute;
+    font-family: 'Red Hat Mono';
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+a{
+    background-color: rgb(135, 141, 222);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color :white;
+    padding : 10px 20px;
+    border:3px solid black;
+    /*border-radius: 50px;*/
+
+}
+
+a.button {
+    background-color: white;
+    color: rgb(135, 141, 222);
+    border-radius: 50px;
+    border: 2px solid black ;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+#risultato img {
+  width : 70%;
+  height : 200px;
+}
+
+article{
+  height:auto;
+  width: auto;
+}
+
+
+article div {
+  margin-top: 20px;
+  text-align:center; 
+  height: auto;
+  width: 100%;
+  color: black;
+}
+
+div.negozio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div.newdiv {
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+section img {
+  width : 30%;
+  height: 150px;
+}
+
+h3, p.descrizione {
+  margin:0px;
+}
+
+.hidden {
+  display: none;
+}
+
+img.pulsante, img.pulsante_compra_prodotto{
+  height: 30px;
+  width: 30px;
+}
+
+#nome {
+    font-size: 40px;
+}
+
+span {
+    display: block;
+}
